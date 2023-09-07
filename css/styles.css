@@ -2,7 +2,38 @@
 :root {
     --color-primary: #6efafb;
     --color-turquoice-dark: #44dee3;
-    --color-body: #c0c0c0;
-    --color-h: #ff7f50;
+    --color-body: #000000;
+    --color-heading: #ff7f50;
     --color-seccondary: #ffdb58;
 }
+
+/* Typography */
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 2rem;
+}
+
+h1, h2, h3 {
+    color: var(--color-heading);
+}
+
+h1 {
+    font-size: 3.4rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2.4rem;
+}
+
+p {
+    color: var(--color-body);
+    font-size: 2rem;
+}
+
