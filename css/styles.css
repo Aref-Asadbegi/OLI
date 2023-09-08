@@ -12,12 +12,40 @@ html {
     font-size: 62.5%;
 }
 
+@font-face {
+    font-family: iransans-medium;
+    font-style: none;
+    font-weight: 500;
+    src: url(/fonts/IRANSansWeb_Medium.woff),
+    url(/fonts/IRANSansWeb_Medium.woff2);
+}
+
+@font-face {
+    font-family: iransans-bold;
+    font-style: none;
+    font-weight: bold;
+    src: url(/fonts/IRANSansWeb_Bold.woff),
+    url(/fonts/IRANSansWeb_Bold.woff2);
+}
+
+@font-face {
+    font-family: iransans-light;
+    font-style: none;
+    font-weight: 200;
+    src: url(/fonts/IRANSansWeb_light.woff),
+    url(/fonts/IRANSansWeb_light.woff2);
+}
+
+
+
 body {
     font-size: 2rem;
+    font-family: iransans-medium;
 }
 
 h1, h2, h3 {
     color: var(--color-heading);
+    font-family: iransans-bold;
 }
 
 h1 {
