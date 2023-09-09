@@ -63,5 +63,45 @@ h3 {
 p {
     color: var(--color-body);
     font-size: 2rem;
+    font-family: iransans-medium;
+}
+/* Navigation Bar */
+.decoration-none {
+    list-style: none;
+    text-decoration: none;
 }
 
+.nav {
+    background-color: var(--color-primary);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    display: flex;
+    margin: 0 auto;
+    max-width: 500px;
+}
+.nav-ul {
+    display: flex;
+}
+
+.nav  li {
+    padding-left: 3rem;
+    font-size: 1.6rem;
+    transition: color .2s;
+}
+
+.nav li:hover {
+    color: var(--color-seccondary);
+    cursor: pointer;
+}
+
+@media screen and (min-width:768px) {
+    .nav {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .nav li {
+        font-size: 2rem;
+        padding-left: 3rem;
+    }
+}
